@@ -8,8 +8,8 @@ export default function Home() {
     await logout();
   }
   return (
-    <View>
-      <Text>Home</Text>
+    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+      <Text style={{ fontSize: 20 }}>Página de Favoritos</Text>
       <Pressable onPress={handleLogout}>
       <Text>Sair</Text>
       </Pressable>
