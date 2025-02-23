@@ -9,7 +9,6 @@ import Loading from '../components/Loading';
 import CustomKeyboardView from '../components/CustomKeyboardView';
 import BackgroundImage from '../components/BackgroundImage';
 import { useAuth } from '../context/authContext';
-import { UserLocationContext } from '../context/UserLocationContext';
 
 
 export default function SignIn() {

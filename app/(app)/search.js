@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { View, Text, StyleSheet, ActivityIndicator } from "react-native";
-import MapView, { Marker, PROVIDER_GOOGLE } from "react-native-maps";
+import MapView, { Marker, PROVIDER_DEFAULT} from "react-native-maps";
 import MapViewStyle from "../../utils/MapViewStyle.json"; // Verifique se o caminho está correto
 import { UserLocationContext } from "../../context/UserLocationContext";
 
@@ -31,7 +31,7 @@ export default function SearchScreen() {
         </Text>
           <MapView
               style={styles.map}
-              provider={PROVIDER_GOOGLE}
+              provider={PROVIDER_DEFAULT}
               customMapStyle={MapViewStyle}
               region={{
               latitude: location.latitude,

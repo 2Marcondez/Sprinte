@@ -4,9 +4,16 @@ import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplet
 
 export default function SearchBar() {
   return (
-    <View>
+    <View style={{
+        display: 'flex',
+        flexDirectio: 'row',
+        marginTop:15,
+        paddingHorizontal:5,
+        backgroundColor:'white',
+        borderRadius:6,                        
+    }}>
       <GooglePlacesAutocomplete
-      placeholder='Search'
+      placeholder='Buscar por Grupos e Clubes de Corrida'
       onPress={(data, details = null) => {
         // 'details' is provided when fetchDetails = true
         console.log(data, details);

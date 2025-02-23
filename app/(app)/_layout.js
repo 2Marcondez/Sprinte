@@ -8,6 +8,8 @@ import FavoritesScreen from "./favorites"
 import ProfileScreen from "./profile"
 import SearchBar from "../../components/SearchBar"
 import { View } from "react-native"
+import 'react-native-get-random-values';
+//imports
 
 const Tab = createBottomTabNavigator()
 
@@ -41,7 +43,12 @@ export default function Layout() {
         name="search"
         component={SearchScreen}
         options={{
-          header: () => <HomeHeader />,
+          header: () => (
+            <View>
+              <HomeHeader />
+              <SearchBar />
+            </View>
+          ),
           title: "Buscar",
           tabBarIcon: ({ color, size }) => (
             <MaterialCommunityIcons name="magnify" size={size} color={color} />
