@@ -48,7 +48,7 @@ export default function SignIn() {
           <Image style={{ height: hp(20), width: hp(30) }} resizeMode="contain" source={require('../assets/images/logo.png')} />
         </View>
         <View className="gap-10">
-          <Text style={{ fontSize: hp(3) }} className="font-bold tracking-wider text-center text-neutral-200">BEM VINDO</Text>
+          <Text style={{ fontSize: hp(3) }} className="font-bold tracking-wider text-center text-neutral-100">BEM VINDO</Text>
 
           {/* email input */}
           <View className="gap-4">
@@ -78,7 +78,7 @@ export default function SignIn() {
                   secureTextEntry 
                 />
               </View>
-              <Text style={{ fontSize: hp(1.5) }} className="font-semibold text-right text-neutral-100">Esqueceu a senha?</Text>
+              <Text style={{ fontSize: hp(1.5) }} className="font-semibold text-right text-neutral-50">Esqueceu a senha?</Text>
             </View>
 
             {/* login botão */}

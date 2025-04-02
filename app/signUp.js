@@ -50,7 +50,7 @@ export default function SignUp() {
           <Image style={{ height: hp(20), width:hp(30) }} resizeMode="contain" source={require('../assets/images/logo.png')} />
         </View>
         <View className="gap-10">
-          <Text style={{ fontSize: hp(3) }} className="font-bold tracking-wider text-center text-neutral-200">REGISTRO</Text>
+          <Text style={{ fontSize: hp(3) }} className="font-bold tracking-wider text-center text-neutral-100">REGISTRO</Text>
 
           {/* Nome completo input */}
           <View className="gap-4">

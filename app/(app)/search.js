@@ -61,6 +61,6 @@ const styles = StyleSheet.create({
   },
   map: {
     width: "100%",
-    height: "120%", // Ajustei para ocupar quase toda a tela
+    height: "140%", // Ajustei para ocupar quase toda a tela
   },
 });
