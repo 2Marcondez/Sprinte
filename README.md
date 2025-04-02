@@ -11,6 +11,7 @@ Sprinte é um aplicativo em desenvolvimento usando **React Native**, **Expo** e
 - **Firebase** (Autenticação e armazenamento de dados)  
 
 ## 🚀 Como Rodar o Projeto
+Será necessario instalar o Android Studio, para simular um celular Android ou usar o Xcode para simular um iPhone.
 
 ### 1️⃣ Clonar o Repositório
 ```bash
