@@ -35,3 +35,4 @@ npm run android-ios
 📢 Este projeto está em desenvolvimento e novas atualizações serão lançadas em breve!
 Em desenvolvimento por Murilo Marcondes.
 
+[Design no Figma](https://www.figma.com/design/3PJcfcC5ftOXlhWP7MUjVS/Untitled?t=61HRZstflPHT6KbM-1)
