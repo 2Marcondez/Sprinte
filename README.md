@@ -1,56 +1,36 @@
-Projeto iniciado por Murilo Marcondes. 
-Criando um aplicativo usando React Native, Expo e Firebase.
+# Sprinte 
 
-*Ainda no inicio*
+Sprinte é um aplicativo em desenvolvimento usando **React Native**, **Expo** e **Firebase**, projetado para corredores que desejam acompanhar e analisar seus treinos de forma eficiente. O projeto ainda está em fase de construção, com novas funcionalidades sendo implementadas. Além do rastreamento e armazenamento de treinos, também está sendo desenvolvida a possibilidade de buscar por grupos de corrida na região e a análise detalhada de treinos antigos.
 
+## 📌 Funcionalidades em Desenvolvimento
 
-# Welcome to your Expo app 👋
+## 🛠️ Tecnologias Utilizadas
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+- **React Native** (Framework principal)  
+- **Expo** (Facilita o desenvolvimento e testes)  
+- **Firebase** (Autenticação e armazenamento de dados)  
 
-## Get started
+## 🚀 Como Rodar o Projeto
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+### 1️⃣ Clonar o Repositório
 ```bash
-npm run reset-project
+git clone https://github.com/2Marcondez/Sprinte.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2️⃣ Instalar as Dependências
+```bash
+npm i
+```
+### 3️⃣ Configurar Firebase
+Crie um projeto no Firebase Console.
 
-## Learn more
+Ative a autenticação e configure.
 
-To learn more about developing your project with Expo, look at the following resources:
+### 4️⃣ Iniciar o Projeto
+```bash
+npm run android-ios
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+📢 Este projeto está em desenvolvimento e novas atualizações serão lançadas em breve!
+Em desenvolvimento por Murilo Marcondes.
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
