@@ -1,6 +1,7 @@
 # Sprinte 
 
 Sprinte é um aplicativo em desenvolvimento usando **React Native**, **Expo** e **Firebase**, projetado para corredores que desejam acompanhar e analisar seus treinos de forma eficiente. O projeto ainda está em fase de construção, com novas funcionalidades sendo implementadas. Além do rastreamento e armazenamento de treinos, também está sendo desenvolvida a possibilidade de buscar por grupos de corrida na região e a análise detalhada de treinos antigos.
+Atualmente, o sistema de login e registro está finalizado e funcionando plenamente, garantindo a autenticação dos usuários.
 
 ## 📌 Funcionalidades em Desenvolvimento
 
