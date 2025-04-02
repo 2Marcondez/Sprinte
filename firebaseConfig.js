@@ -10,7 +10,7 @@ import {getFirestore, collection} from 'firebase/firestore'
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCPM-4vmQv61tDZ9yFqZUq6iwY_Wp9ikcY",
+  apiKey: "APIKEYFIREBASE",
   authDomain: "fir-sprinte.firebaseapp.com",
   projectId: "fir-sprinte",
   storageBucket: "fir-sprinte.firebasestorage.app",
